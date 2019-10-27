@@ -1,6 +1,7 @@
 # Developing-Data-Products-Assignment
 
 ## Rshiny based application to enable user to select a car based on his requirement
+*The Application can be found at : https://rajism.shinyapps.io/Car_Shopping/
 
 ### Dataset Used
 *This Application uses mtcars dataset  
@@ -8,13 +9,17 @@ The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel
 
 ### Input Provides
 * User has the flexibility to choose various features of car like
- 1. Brand
- 2. Transmission Type
- 3. Horsepower
- 4. Number of cylider
- 5. number of gears
+  + Checkbox Input type for:
+    1. Number of cylinders
+    2. Number of gears
+    3. ransmission type
+  + Multiselect input for:
+    1. Brand of the car
+  + Numeric Input for:
+    1. Miles per Gallon
+    2. Horsepower
  
 ### Output
-* the user is provided with list of suitable models of cars and their specifications which fits his requirement
+* The user is provided with list of suitable models of cars and their specifications which fits his requirement
  
  
